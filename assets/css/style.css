@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    /* background-image: url('../img/bgheader.jpg');
+    background-repeat: repeat */
+}
+
+.header-pandora {
+    background-image: url('../img/bgheader.jpg');
+    height: 200px;
+    width: 100%;
+}
+
+.header-inner {
+    line-height: 3em;
+    margin-left: 100px;
+    padding-top: 80px;
+}
+
+.seccion-productos {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.seccion-productos img {
+  width: 300px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.container-productos {
+    width: 100%;
+}
+
+.img-producto {
+width: 50%;
+}
+
+.texto-producto {
+    line-height: 2rem;
+    width: 50%;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+background-color: gray;
+text-align: center;
+padding: 10px;
+margin-top: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer:hover {
+    background-color:black;
+}
